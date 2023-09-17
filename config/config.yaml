@@ -1,0 +1,19 @@
+---
+training:
+  epochs: 100
+  learning_rate: 0.001
+  batch_size: 8
+data:
+  file_path: data/CH4_exp_32.txt
+model:
+  prediction_length: 30         # one minute data
+  context_length: 40    
+  past_length: 60               # two minutes data
+  input_size: 1
+  scaling: std
+  num_dynamic_real_features: 4   # CH4, T, P, RH
+  num_parallel_samples: 32
+wandb:
+  entity: leihanchen
+  project: ch4_tranformer
+
