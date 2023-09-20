@@ -1,4 +1,4 @@
----
+# Summary
 This is a brief introduction on how to use ar.py for a simple DeepAR training and evaluation with Pytorch Forecasting.
 
 PyTorch Forecasting aims to ease state-of-the-art timeseries forecasting with neural networks for real-world cases and research alike. The goal is to provide a high-level API with maximum flexibility for professionals and reasonable defaults for beginners.
@@ -14,7 +14,7 @@ Specifically, the package provides
 - Hyperparameter tuning with [optuna](https://optuna.readthedocs.io/)
 
 The package is built on [pytorch-lightning](https://pytorch-lightning.readthedocs.io/) to allow training on CPUs, single and multiple GPUs out-of-the-box.
----
+
 # Installation
 It is highly recommended to run this script inside a docker. Please use provided Dockerfile to generate docker image. The steps are as follows:<br>
 1. Navigate to the folder where the dockerfile is located. Make sure requirements are inside the same folder
@@ -28,7 +28,7 @@ Then you are free to go inside docker container to run the scripts.
 Visit [https://pytorch-forecasting.readthedocs.io](https://pytorch-forecasting.readthedocs.io) to read the
 documentation with detailed tutorials.
 
-# Usage
+# Methods
 
 The Pytorch Forecasting library provides a [comparison of available models](https://pytorch-forecasting.readthedocs.io/en/latest/models.html).
 
